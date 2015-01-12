@@ -11,3 +11,8 @@ def hello():
   return 'goodbye World awesome!'
 if __name__ == '__main__':
   app.run(host='0.0.0.0', debug=True)
+
+
+@app.route('/whattree')
+def tree():
+  return 'oak'
